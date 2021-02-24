@@ -8,5 +8,10 @@ namespace Webapplications
 {
     class EmployeeReposotory
     {
+      public string Db()
+        {
+            return "Hello";
+            
+        }
     }
 }
