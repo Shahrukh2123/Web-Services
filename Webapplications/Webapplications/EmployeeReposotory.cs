@@ -8,10 +8,20 @@ namespace Webapplications
 {
     class EmployeeReposotory
     {
-      public string Db()
+        public int Id
         {
-            return "Hello";
-            
+            get;
+            set;
+        }
+      public string Name
+        {
+            get;
+            set;
+        }
+        public int Salary
+        {
+            get;
+            set;
         }
     }
 }
